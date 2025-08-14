@@ -31,6 +31,6 @@ Gem::Specification.new do |s|
   s.summary = 'Plugin/gem that provides comment functionality'
   s.license = 'MIT'
 
-  s.add_dependency 'activerecord', '~> 7.1.0'
+  s.add_dependency 'activerecord', '>= 7.1', '< 8.1'
   s.metadata['rubygems_mfa_required'] = 'true'
 end
